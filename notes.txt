@@ -1,0 +1,105 @@
+npm does not stand for Node Package Manager.
+
+What is the responsibility of npm?
+--> npm is responsible of managing different packages.
+
+Why npm is required?
+--> We need several helper packages to be used in our react project. To install and manage those packages we need npm.
+
+What is package?
+--> Package is a piece of code written by some other developer which we can use for our ease of development.
+
+What is dependency?
+--> Dependency means the package that our app is dependent on.
+
+What is devDependency?
+--> The dependency which is required in development mode only.
+
+What is the sign ^
+--> This is known as caret.
+In a package.json file, the caret (^) and tilde (~) characters are used to specify the version range of a dependency.
+
+The caret symbol (^) indicates that you allow updates that are backward compatible with the current version of the package. For example, if you specify "^2.1.0" as the version for a dependency, you allow updates up to version 2.9999.9999, but not version 3.0.0 or higher.
+
+On the other hand, the tilde symbol (~) indicates that you allow updates that include only patch-level changes. For example, if you specify "~2.1.0" as the version for a dependency, you allow updates up to version 2.1.9999, but not version 2.2.0 or higher.
+
+If we don't mention either of the symbol, that indicates we don't want any update, we just want that particular version.
+
+
+What is parcel?
+--> Parcel is a bundler just like webpack. We need a bundler to bundle our app and make it deployable in production.
+create-react-app uses webpack as bundler under the hood. Here we'll use parcel. We need Parcel only in development mode to create the minified build only, so we need to install it as a devDependency.
+
+
+what is the significance of package-lock.json file?
+--> To know what exact version of a dependency is used in production, we need package-lock.
+The package-lock.json file is used by npm to keep track of the exact version of each installed package and its dependencies. It is created automatically when you run npm install and contains a detailed record of the tree of dependencies for your project.
+
+The package-lock.json file serves several important purposes:
+
+Reproducible builds: The file ensures that the exact same versions of dependencies are installed on all machines, which is crucial for achieving reproducible builds.
+
+Faster installs: The file contains metadata that allows npm to avoid unnecessary network requests and install packages more quickly.
+
+Dependency resolution: The file helps npm resolve conflicts between different versions of dependencies.
+
+Security: The file helps ensure that you're not installing malicious or compromised packages, by verifying the integrity of each package downloaded.
+
+It's important to include the package-lock.json file in your version control system so that others can reproduce the same environment and build your application in the same way. Additionally, when you run npm ci, npm installs packages based solely on the package-lock.json file, ensuring that you always have the exact same dependencies installed.
+
+
+
+does package.json and package-lock.json always contain same version?
+--> No, the package.json and package-lock.json files can contain different versions for the same package.
+
+The package.json file specifies the desired version range for each package, which allows for updates within that range. For example, a package.json file might specify a dependency on version ^1.0.0, which allows for updates up to version 1.x.x, but not 2.0.0.
+
+On the other hand, the package-lock.json file specifies the exact version of each package that was installed, including all of its dependencies, based on the version range specified in package.json. This ensures that everyone working on the project is using the exact same set of dependencies and their dependencies, and avoids version conflicts.
+
+If you modify the package.json file by changing the version range of a package, or adding/removing a package, you will need to run npm install to generate a new package-lock.json file that reflects those changes. Running npm install will also update the installed packages to the latest version within the specified version range.
+
+It's important to keep both package.json and package-lock.json files in sync and commit them to version control, so that all collaborators on the project can have a consistent environment and build the application in the same way.
+
+
+
+What is node_modules?
+--> It is kind of database for npm.
+
+What is npx?
+--> execute using npm
+
+When we write 'npx parcel index.html' it creates a development build and host it on a server(localhost).
+When we write 'npx parcel build index.html' it creates a production build. that production build is put inside 'dist' folder.
+'dist' folder contains index.html, one minified .js file and one minified .css file.
+
+How UI reflects changes immediately after we save the code, even before reloading the page?
+--> This is done due to the concept of Hot Module Replacement. Parcel(bundlers) does this for us.
+File watcher Algorithm(written in C++) is used to know about which file has changed in real time and it tells the server to reload.
+
+
+What all Parcel can do?
+-->
+Create a server
+HMR
+Bundling
+Minify
+Dev and Production build
+Super fast build Algorithm
+Image Optimization
+Caching while development (if we delete .parcel-cache folder, then build will take longer time, but after that build will take lesser time because it is cached)
+Compression (the variable names given by us is compressed to small names in the minified file)
+Compatiable with older versions of browsers
+HTTPS on dev (npx parecel index.html --https)
+
+Should we push .parcel-cache folder in GIT?
+--> No. Rather we should add it in .gitignore file. Anything that can be auto generated in server should be kept into gitignore.
+
+Why React is so fast?
+--> React uses Virtual DOM. This is not the only thing that makes React faster. The bundlers also play major role.
+The bundler alone is also not doing everything by its own, it also uses other dependencies under the hood.
+
+
+What is Transitive Dependency?
+--> When we need to make our app production ready, we need to do so many yhings like caching, minification, compression etc.
+React can't do all these alone, for this we need help of other dependencies(Parcel). and those dependencies also use other dependencies.
+This chain of dependencies is known as Transitive Dependency.
