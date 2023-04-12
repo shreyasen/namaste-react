@@ -103,3 +103,22 @@ What is Transitive Dependency?
 --> When we need to make our app production ready, we need to do so many yhings like caching, minification, compression etc.
 React can't do all these alone, for this we need help of other dependencies(Parcel). and those dependencies also use other dependencies.
 This chain of dependencies is known as Transitive Dependency.
+
+
+What is JSX?
+--> JSX is not HTML inside javascript file. It is HTML like syntax inside JS file which is ultimately converted to React.createElement by Babel.
+JSX => React.createElement => Object => rendered as HTML(DOM)
+
+
+Where from Babel came into our project?
+--> It came along with Parcel as its dependency. We did not manually install Babel, so it is not present in our package.json. But it is present in node_modules as well as in the package-lock.json file inside the node_modules.
+
+
+We can place any piece of javascript inside JSX wrapping it by {}. Suppose we have a api call and that api got hacked and the api call returned some malicious code. This attack is known by XSS attack.
+Some hacker put their js into your website, if hacker can run javascript code in your browser then he can hack many information like ip,password,location etc.
+Now we are placing the returned response in our JSX. Bt JSX takes care of it. It is very safe. Give any data to JSX, JSX sanitizes it. JSX will escape malicious data first and it will make sure that your app is safe from XSS attack.
+
+
+What is Component Composition?
+--> If we use a component inside another component, that is known as Component Composition or Composing Components.
+
