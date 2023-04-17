@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import restaurants from "./restaurants.json";
 
 // This is a React Element
 const title = (
@@ -17,24 +18,69 @@ const TitleComponent = () => (
 // This is a React Component
 const Header = () => {
   return (
-    <div>
-      {/* to use a react element we wrap it inside curly braces */}
-      {title}
-      {/* to use a react component we wrap it inside angular brackets */}
-      <TitleComponent />
-      {/* to use a react component we can also wrap it inside curly braces and call it as normal function */}
-      {TitleComponent()}
-      <h2>Header</h2>
+    <div className="header">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuIIpkpCqO47xEJwIANP8FPzJaDa6EojkbA&usqp=CAU"
+        alt="food-villa"
+      />
+      <ul>
+        <li>Contact</li>
+        <li>About Us</li>
+        <li>Cart</li>
+      </ul>
     </div>
   );
 };
 
+const RestaurantCard = ({
+  name,
+  cloudinaryImageId,
+  cuisines,
+  avgRating,
+  slaString,
+  costForTwoString,
+}) => {
+  return (
+    <div className="card">
+      <img
+        src={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/${cloudinaryImageId}`}
+      />
+      <div className="card-details">
+        <h2>{name}</h2>
+        <div>{cuisines.join(", ")}</div>
+        <div className="restaurant-description">
+          <span>{avgRating}</span>
+          <span>{slaString}</span>
+          <span>{costForTwoString}</span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Body = () => {
+  return (
+    <div className="restaurant-list">
+      {restaurants.map((restaurant) => {
+        // we are passing props by destructuring the elements of restaurants.data
+        return <RestaurantCard {...restaurant.data} key={restaurant.data.id} />;
+      })}
+    </div>
+  );
+};
+
+const Footer = () => {
+  return <div>Footer</div>;
+};
+
 // This is another representation of Header component without using curly braces and return
-const HeaderCopy = () => (
+const AppLayout = () => (
   <div>
-    <h2>Header</h2>
+    <Header />
+    <Body />
+    <Footer />
   </div>
 );
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(title);
-root.render(<Header />);
+root.render(<AppLayout />);

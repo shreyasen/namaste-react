@@ -1,0 +1,1661 @@
+[
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "61345",
+      "name": "New Punjab Khalsa Hotel",
+      "uuid": "2464f25e-cc23-45c1-94ce-41cfa5eb42fe",
+      "city": "7",
+      "area": "Bally",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "o7grj4i8nzckaqjabmke",
+      "cuisines": ["Indian", "Mughlai"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 37,
+      "minDeliveryTime": 37,
+      "maxDeliveryTime": 37,
+      "slaString": "37 MINS",
+      "lastMileTravel": 2.4000000953674316,
+      "slugs": {
+        "restaurant": "punjab-khalsa-hotel-bally-howrah",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "24, G.T Road, Bally Khal, Bally, Howrah",
+      "locality": "Grand Trunk Road",
+      "parentId": 147595,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6503473~p=1~eid=00000187-9024-9542-2021-db2900b10152",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "2.4 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "61345",
+        "deliveryTime": 37,
+        "minDeliveryTime": 37,
+        "maxDeliveryTime": 37,
+        "lastMileTravel": 2.4000000953674316,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.1",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "102396",
+      "name": "KFC",
+      "uuid": "0d5648ab-10c0-43a1-b2bb-b2a87f136034",
+      "city": "7",
+      "area": "Uttarpara",
+      "totalRatingsString": "5000+ ratings",
+      "cloudinaryImageId": "56c9ab92bd79745fd152a30fa2525426",
+      "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+      "tags": [],
+      "costForTwo": 45000,
+      "costForTwoString": "₹450 FOR TWO",
+      "deliveryTime": 29,
+      "minDeliveryTime": 29,
+      "maxDeliveryTime": 29,
+      "slaString": "29 MINS",
+      "lastMileTravel": 0.10000000149011612,
+      "slugs": {
+        "restaurant": "kfc-gt-road-bhadrakali-howrah",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "KFC Restaurant, GROUND FLOOR, UTTARPARA 20 and 22B, GT  ROAD BHADRAKALI, HOOGHLY UNIMARK RIVIERA, Kolkata 712232",
+      "locality": "GT  ROAD BHADRAKALI",
+      "parentId": 547,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.1 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "102396",
+        "deliveryTime": 29,
+        "minDeliveryTime": 29,
+        "maxDeliveryTime": 29,
+        "lastMileTravel": 0.10000000149011612,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.3",
+      "totalRatings": 5000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "93039",
+      "name": "Pizza Hut",
+      "uuid": "139b9ddc-10df-4d5e-8170-db04d450b470",
+      "city": "7",
+      "area": "Uttarpara",
+      "totalRatingsString": "5000+ ratings",
+      "cloudinaryImageId": "gkqcgq8eeiqkenocbwqp",
+      "cuisines": ["Pizzas"],
+      "tags": [],
+      "costForTwo": 35000,
+      "costForTwoString": "₹350 FOR TWO",
+      "deliveryTime": 24,
+      "minDeliveryTime": 24,
+      "maxDeliveryTime": 24,
+      "slaString": "24 MINS",
+      "lastMileTravel": 0.10000000149011612,
+      "slugs": {
+        "restaurant": "pizza-hut-gt-road-howrah",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "20 & 22B, GT Road, Bhadrakali, Hooghly, Unimark Riviera Uttarpara Kolkata West Bengal - 712232",
+      "locality": "GT Road",
+      "parentId": 721,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.1 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "93039",
+        "deliveryTime": 24,
+        "minDeliveryTime": 24,
+        "maxDeliveryTime": 24,
+        "lastMileTravel": 0.10000000149011612,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.1",
+      "totalRatings": 5000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "401104",
+      "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+      "uuid": "109aee51-4aab-4964-856b-d44e6522d194",
+      "city": "7",
+      "area": "Bhadrakali",
+      "totalRatingsString": "500+ ratings",
+      "cloudinaryImageId": "w880r4dopmhyuoydz0yc",
+      "cuisines": ["Desserts", "Ice Cream", "Ice Cream Cakes"],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 28,
+      "minDeliveryTime": 28,
+      "maxDeliveryTime": 28,
+      "slaString": "28 MINS",
+      "lastMileTravel": 2.0999999046325684,
+      "slugs": {
+        "restaurant": "kwality-walls-frozen-dessert-and-ice-cream-shop-bhadrakali-bhadrakali",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "JUNCTION STORE: 58/2 NEW GT ROAD, WARD NO-17, HOOGHLY,W.B-712258",
+      "locality": "WARD NO-17",
+      "parentId": 582,
+      "unserviceable": false,
+      "veg": true,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6510710~p=4~eid=00000187-9024-9542-2021-db2a00b1040c",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "2 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "401104",
+        "deliveryTime": 28,
+        "minDeliveryTime": 28,
+        "maxDeliveryTime": 28,
+        "lastMileTravel": 2.0999999046325684,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.7",
+      "totalRatings": 500,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "299135",
+      "name": "Wow! Momo",
+      "uuid": "98876103-5b6f-450b-ad50-4d2b4c6378c3",
+      "city": "7",
+      "area": "Hooghly",
+      "totalRatingsString": "5000+ ratings",
+      "cloudinaryImageId": "90ac3da2963978f866177263fba805a7",
+      "cuisines": [
+        "Tibetan",
+        "Healthy Food",
+        "Asian",
+        "Chinese",
+        "Snacks",
+        "Continental",
+        "Desserts",
+        "Beverages"
+      ],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 34,
+      "minDeliveryTime": 34,
+      "maxDeliveryTime": 34,
+      "slaString": "34 MINS",
+      "lastMileTravel": 2,
+      "slugs": {
+        "restaurant": "wow-china-kotrung-howrah",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "2-63, Kotrung, Uttarpara, Hoogly-West bengal 712258",
+      "locality": "Hooghly",
+      "parentId": 1776,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "2 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "299135",
+        "deliveryTime": 34,
+        "minDeliveryTime": 34,
+        "maxDeliveryTime": 34,
+        "lastMileTravel": 2,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.4",
+      "totalRatings": 5000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "326968",
+      "name": "Gopal Ahar Bahar",
+      "uuid": "e71a8c6d-5ccf-4051-aa5e-470c3e1f5217",
+      "city": "7",
+      "area": "Uttarpara",
+      "totalRatingsString": "500+ ratings",
+      "cloudinaryImageId": "jtvy8yuekqfh59d4jltm",
+      "cuisines": ["Chinese"],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 33,
+      "minDeliveryTime": 33,
+      "maxDeliveryTime": 33,
+      "slaString": "33 MINS",
+      "lastMileTravel": 0.10000000149011612,
+      "slugs": {
+        "restaurant": "gopal-ahar-bahar-bally-bally",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "\"22 & 22B, G.T ROAD,BHADRAKALI, UTTARPARA, HOOGHLY- 712232",
+      "locality": "Bally",
+      "parentId": 88961,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.1 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "326968",
+        "deliveryTime": 33,
+        "minDeliveryTime": 33,
+        "maxDeliveryTime": 33,
+        "lastMileTravel": 0.10000000149011612,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.8",
+      "totalRatings": 500,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "60539",
+      "name": "Grill To Chill",
+      "uuid": "6aa4f03b-b8f5-484f-9711-3026131a151f",
+      "city": "7",
+      "area": "Uttarpara",
+      "totalRatingsString": "5000+ ratings",
+      "cloudinaryImageId": "ohqfmcnmdwqbg0vyakto",
+      "cuisines": ["Indian", "Chinese", "Tandoor"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 34,
+      "minDeliveryTime": 34,
+      "maxDeliveryTime": 34,
+      "slaString": "34 MINS",
+      "lastMileTravel": 2,
+      "slugs": {
+        "restaurant": "grill-to-chill-belur-sanitytestarea",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "43, Grand Trunk Rd, Kotrung, Uttarpara, Howrah, West Bengal 712258, India, Belur, Howrah",
+      "locality": "Belur",
+      "parentId": 90748,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": "Closes soon"
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6503643~p=7~eid=00000187-9024-9542-2021-db2b00b10715",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "2 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "60539",
+        "deliveryTime": 34,
+        "minDeliveryTime": 34,
+        "maxDeliveryTime": 34,
+        "lastMileTravel": 2,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.3",
+      "totalRatings": 5000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "654195",
+      "name": "Haveli Cafe",
+      "uuid": "a98fcd25-aef7-4e74-8b84-c9b637e3444a",
+      "city": "7",
+      "area": "Bally",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "dcfe2edf703b0669d5e885622fb5aa07",
+      "cuisines": ["Indian", "Biryani", "Chinese"],
+      "tags": [],
+      "costForTwo": 35000,
+      "costForTwoString": "₹350 FOR TWO",
+      "deliveryTime": 35,
+      "minDeliveryTime": 35,
+      "maxDeliveryTime": 35,
+      "slaString": "35 MINS",
+      "lastMileTravel": 0.5,
+      "slugs": {
+        "restaurant": "haveli-cafe-bally-bally",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "M8GW+CXF, Panpara Bye Ln, Bhadrakali, Uttarpara, West Bengal 712232, India",
+      "locality": "Bhadrakali",
+      "parentId": 94498,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": "Closes soon"
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "654195",
+        "deliveryTime": 35,
+        "minDeliveryTime": 35,
+        "maxDeliveryTime": 35,
+        "lastMileTravel": 0.5,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "339756",
+      "name": "PRATICHHABI KITCHEN",
+      "uuid": "05b2d156-47f7-4738-991c-fbcdb44ea26d",
+      "city": "7",
+      "area": "Uttarpara",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "vodykiwzbqbwg6ni5z1s",
+      "cuisines": ["Chinese", "North Indian", "Tandoor", "Biryani"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 36,
+      "minDeliveryTime": 36,
+      "maxDeliveryTime": 36,
+      "slaString": "36 MINS",
+      "lastMileTravel": 1.399999976158142,
+      "slugs": {
+        "restaurant": "pratichhabi-kitchen-bally-bally",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "31,RAJENDRA AVENUE WORD-14 UTTARPARA DRSTRICT HOOGHLY 712258",
+      "locality": "Bally",
+      "parentId": 160766,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.3 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "339756",
+        "deliveryTime": 36,
+        "minDeliveryTime": 36,
+        "maxDeliveryTime": 36,
+        "lastMileTravel": 1.399999976158142,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.9",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "613298",
+      "name": "Kebabs In Roll - Uttarpara",
+      "uuid": "c7796597-bf0c-49fc-9e61-273b362aa67c",
+      "city": "7",
+      "area": "Bally",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "xbvck0afg5xe9v6ke6ii",
+      "cuisines": ["Snacks", "Indian", "Burgers", "Chinese"],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 35,
+      "minDeliveryTime": 35,
+      "maxDeliveryTime": 35,
+      "slaString": "35 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "kebabs-in-roll---uttarpara-bally-bally",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "1, shibtola ghat lane, Bhadrakali, Uttarpara, West Bengal 712232, India",
+      "locality": "Uttarpara",
+      "parentId": 365843,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "613298",
+        "deliveryTime": 35,
+        "minDeliveryTime": 35,
+        "maxDeliveryTime": 35,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "126485",
+      "name": "China Gaon",
+      "uuid": "19a7157f-0b98-449f-a36e-78237c68c6d9",
+      "city": "7",
+      "area": "Bally",
+      "totalRatingsString": "5000+ ratings",
+      "cloudinaryImageId": "buicjzqdoznvoxeqecth",
+      "cuisines": ["Chinese", "Indian", "Biryani", "Snacks"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 39,
+      "minDeliveryTime": 39,
+      "maxDeliveryTime": 39,
+      "slaString": "39 MINS",
+      "lastMileTravel": 3,
+      "slugs": {
+        "restaurant": "china-gaon-bally-bally",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "10,Madhab Banerjee Lane,Bally,Howrah 711201",
+      "locality": "Madhab Banerjee Lane,Bally",
+      "parentId": 61367,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4200,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4200,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4200",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "3 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "126485",
+        "deliveryTime": 39,
+        "minDeliveryTime": 39,
+        "maxDeliveryTime": 39,
+        "lastMileTravel": 3,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.8",
+      "totalRatings": 5000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "401464",
+      "name": "The Chinese Wok",
+      "uuid": "18345386-f880-4e39-a9b5-6d391593e7be",
+      "city": "7",
+      "area": "Ballykhal",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "yk0zo4g8f0g4mjjnbys5",
+      "cuisines": ["Chinese"],
+      "tags": [],
+      "costForTwo": 25000,
+      "costForTwoString": "₹250 FOR TWO",
+      "deliveryTime": 39,
+      "minDeliveryTime": 39,
+      "maxDeliveryTime": 39,
+      "slaString": "39 MINS",
+      "lastMileTravel": 2.4000000953674316,
+      "slugs": {
+        "restaurant": "the-chinese-wok-bally-bally",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "24, G.T Road, BallyKhal, Howrah.",
+      "locality": "Ballykhal",
+      "parentId": 1001,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6503474~p=13~eid=00000187-9024-9542-2021-db2d00b10d07",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "2.4 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "401464",
+        "deliveryTime": 39,
+        "minDeliveryTime": 39,
+        "maxDeliveryTime": 39,
+        "lastMileTravel": 2.4000000953674316,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.2",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "98338",
+      "name": "Sai Fast Food Center",
+      "uuid": "ac1c0e92-22b5-4e86-a710-33e86fc1ea79",
+      "city": "7",
+      "area": "Hindmotor",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "n0ulpfiywmdkamtfzmzz",
+      "cuisines": ["Chinese", "Mughlai", "Fast Food"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 37,
+      "minDeliveryTime": 37,
+      "maxDeliveryTime": 37,
+      "slaString": "37 MINS",
+      "lastMileTravel": 1.600000023841858,
+      "slugs": {
+        "restaurant": "sai-fast-food-center-hindmotor-bally",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "187, B.B. Road, Hindmotor, Hooghly - 7122333",
+      "locality": "Near mio amore Hind motor",
+      "parentId": 175067,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "98338",
+        "deliveryTime": 37,
+        "minDeliveryTime": 37,
+        "maxDeliveryTime": 37,
+        "lastMileTravel": 1.600000023841858,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.7",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "174338",
+      "name": "Amantran",
+      "uuid": "acf9f802-928b-4e5a-8a90-6e49f8daa613",
+      "city": "7",
+      "area": "Uttarpara",
+      "totalRatingsString": "500+ ratings",
+      "cloudinaryImageId": "ytocqzq7te9fw4uiw5lq",
+      "cuisines": ["Bengali"],
+      "tags": [],
+      "costForTwo": 10000,
+      "costForTwoString": "₹100 FOR TWO",
+      "deliveryTime": 35,
+      "minDeliveryTime": 35,
+      "maxDeliveryTime": 35,
+      "slaString": "35 MINS",
+      "lastMileTravel": 1.5,
+      "slugs": {
+        "restaurant": "amantran-82-rpm-road-bally",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "82 RPM ROAD. HOOGHLY 712258",
+      "locality": "82 RPM ROAD",
+      "parentId": 6098,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3400,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "174338",
+        "deliveryTime": 35,
+        "minDeliveryTime": 35,
+        "maxDeliveryTime": 35,
+        "lastMileTravel": 1.5,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.8",
+      "totalRatings": 500,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "60304",
+      "name": "Chinese Hub",
+      "uuid": "3bef8f97-fc11-484c-9e76-ec84f30eb8c7",
+      "city": "7",
+      "area": "Bally",
+      "totalRatingsString": "5000+ ratings",
+      "cloudinaryImageId": "aaudwnm1pie1buqtfn90",
+      "cuisines": ["Chinese", "Beverages", "Biryani", "Indian"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 45,
+      "minDeliveryTime": 45,
+      "maxDeliveryTime": 45,
+      "slaString": "45 MINS",
+      "lastMileTravel": 4.099999904632568,
+      "slugs": {
+        "restaurant": "chinese-hub-belur-sanitytestarea",
+        "city": "kolkata"
+      },
+      "cityState": "7",
+      "address": "158 GT Road, Badamtala Bally, Belur, Howrah",
+      "locality": "Roy Jadhunath Rai Bahadur Road - G.T. Road Crossing",
+      "parentId": 16394,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "30% off",
+        "shortDescriptionList": [
+          {
+            "meta": "30% off | Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "30% off up to ₹75 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "30% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "30% off up to ₹75 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4200,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4200,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4200",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6503644~p=16~eid=00000187-9024-9542-2021-db2e00b1103b",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "4 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "60304",
+        "deliveryTime": 45,
+        "minDeliveryTime": 45,
+        "maxDeliveryTime": 45,
+        "lastMileTravel": 4.099999904632568,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.1",
+      "totalRatings": 5000,
+      "new": false
+    },
+    "subtype": "basic"
+  }
+]

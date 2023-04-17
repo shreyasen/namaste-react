@@ -122,3 +122,9 @@ Now we are placing the returned response in our JSX. Bt JSX takes care of it. It
 What is Component Composition?
 --> If we use a component inside another component, that is known as Component Composition or Composing Components.
 
+What is Virtual DOM?
+--> Virtual DOM is the representation of the actual DOM.
+
+Why React is fast?
+--> React uses Virtual DOM. Whenever there is any change in code/data it compares the actual and virtual DOM and only re-renders that specific portion in UI which has changed.
+It does not re-render the entire UI. this process is known as Reconciliation and it uses diff Algorithm. 
