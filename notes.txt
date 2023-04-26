@@ -108,6 +108,7 @@ This chain of dependencies is known as Transitive Dependency.
 What is JSX?
 --> JSX is not HTML inside javascript file. It is HTML like syntax inside JS file which is ultimately converted to React.createElement by Babel.
 JSX => React.createElement => Object => rendered as HTML(DOM)
+We can write any piece of JS Expression inside {} within JSX, but not JS Statements.
 
 
 Where from Babel came into our project?
@@ -128,3 +129,22 @@ What is Virtual DOM?
 Why React is fast?
 --> React uses Virtual DOM. Whenever there is any change in code/data it compares the actual and virtual DOM and only re-renders that specific portion in UI which has changed.
 It does not re-render the entire UI. this process is known as Reconciliation and it uses diff Algorithm. 
+
+Diff algorithm is written in "react" or "react-dom"?
+--> "react". React Native also uses the same diff algorithm from "react" library.
+
+
+
+Monolith vs Microservices
+-->One big application maintaining everything. For ex: backend, ui, apis everything written in one java project. This is known as Monolithic Architechture.
+
+Small small apps maintaining different portions. For ex: auth service, user service, cart service.
+Benefit is: Easy to maintain, easy to test, easy to deploy, separation of concerns(UI team is not concerned about backend and vice versa)
+Every service is maintained by separate team and they are focused to only that service. This is known as Microservices Architechture.
+
+
+
+Shimmer Effect/Shimmer UI
+--> A Shimmer UI resembles the page's actual UI.
+Shimmer effects are loading indicattors used when fetching data from a data source that can either be local or remote.
+
