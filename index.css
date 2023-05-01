@@ -10,7 +10,7 @@
   border-bottom: 1px solid gray;
   padding: 0rem 1rem;
 }
-.header > img {
+.header img {
   width: 5rem;
 }
 .header > ul {
@@ -53,4 +53,20 @@
 .search-input {
   width: 100%;
   padding: 0.75rem;
+}
+.shimmer-card {
+  width: 15rem;
+  height: 20rem;
+  background-color: lightgray;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.restaurant-details-container {
+  padding: 2rem 10rem;
+}
+.restaurant-details-header {
+  display: flex;
+}
+.restaurant-details-header img {
+  width: 20rem;
 }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import restaurants from "../../restaurants.json";
+import Shimmer from "./Shimmer";
 import RestaurantCard from "./RestaurantCard";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const [restaurantList, setRestaurantList] = useState([]);
@@ -16,7 +17,7 @@ const Body = () => {
 
   const getRestaurants = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.6739913&lng=88.35064679999999&page_type=DESKTOP_WEB_LISTING"
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.572646&lng=88.36389500000001&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
     console.log(json);
@@ -28,11 +29,9 @@ const Body = () => {
     getRestaurants();
   }, []);
 
-  if (!restaurantList.length) {
-    return <h1>loading...</h1>;
-  }
   return (
     <>
+      {/* <Shimmer /> */}
       <div className="search-container">
         <input
           type="text"
@@ -52,10 +51,16 @@ const Body = () => {
         {restaurantList.length > 0 && filteredRestaurantList.length === 0 && (
           <h1>No restaurant found!</h1>
         )}
+        {!restaurantList.length && <Shimmer />}
         {filteredRestaurantList.map((restaurant) => {
           // we are passing props by destructuring the elements of restaurants.data
           return (
-            <RestaurantCard {...restaurant.data} key={restaurant.data.id} />
+            <Link
+              to={`restaurant/${restaurant.data.id}`}
+              key={restaurant.data.id}
+            >
+              <RestaurantCard {...restaurant.data} />
+            </Link>
           );
         })}
       </div>

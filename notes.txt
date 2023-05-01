@@ -148,3 +148,26 @@ Shimmer Effect/Shimmer UI
 --> A Shimmer UI resembles the page's actual UI.
 Shimmer effects are loading indicattors used when fetching data from a data source that can either be local or remote.
 
+
+In useEffect hook what if we don't pass any dependency array as 2nd argument?
+--> The function inside useEffect will be called on every render. Initial render as well as whenever any state changes.
+
+Never create a component inside a component.
+
+Why CDN is great place to host your images?
+--> In real world applications images are mostly used from CDN , instead of keeping then in assets folder in react app.
+because CDN are faster, CDN caches your images, cdn returns very fast, it has 100% up time, it optimizes things.
+In cdn we can not optimize our images after it comes to our browser, we put in optimized images on cdn.
+
+
+Formik is a good package to handle forms in React.
+
+
+There are 2 types of routing.
+Server Side Routing and Client Side Routing
+
+Server Side Routing is the way where all our pages come from server. In older days when we used to have separate html pages like home.html, about.html, contact.html every page used to be served from server.
+React is a Single page Application(SPA), it has only one html page. Whenver we change route it does not make any network call.
+
+
+In case of nested routing we need to pass children in createBrowserRouter. All the children will go into <Outlet/> according to the route.
