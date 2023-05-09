@@ -171,3 +171,36 @@ React is a Single page Application(SPA), it has only one html page. Whenver we c
 
 
 In case of nested routing we need to pass children in createBrowserRouter. All the children will go into <Outlet/> according to the route.
+
+
+Why we need to write 'extends React.Component{}'?
+--> To tell the browser that is not a normal Javascript function, this is a class based component. By extending we can inherit React's properties(super powers).\
+
+
+When we pass props to class based component, it will take the props and attach it to the 'this' keyword of the class.
+
+
+
+Component mounting happens in 2 phases. 1. render 2. commit 
+If a parent component contains multiple child component, first the render phase of all the components mounting will finish and then the commit phase of mounting will happen.
+
+So the order will be -
+Parent constructor called
+Parent render called
+    ChildOne constructor called //render phase
+    ChildOne render called //render phase
+    ChildTwo constructor called //render phase
+    ChildTwo render called //render phase
+    ChildOne componentDidMount called //commit phase
+    ChildTwo componentDidMount called //commit phase
+Parent componentDidMount called
+
+
+Research:
+Why super(props) is used as a first line of constructor in class component?
+You can make componentDidMount a async function, but can't write async function in useEffect callback. Why?
+
+
+
+
+componentDidMount is called after 1st render. componentDidUpdate is called after every next render.

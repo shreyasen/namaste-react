@@ -29,9 +29,15 @@
 }
 .card {
   width: 15rem;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   border-radius: 0.5rem;
   margin-top: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  border: 1px solid gray;
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 .card > img {
   width: 100%;
@@ -69,4 +75,8 @@
 }
 .restaurant-details-header img {
   width: 20rem;
+}
+.restaurant-card-link {
+  text-decoration: none;
+  color: unset;
 }
