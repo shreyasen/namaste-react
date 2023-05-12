@@ -204,3 +204,17 @@ You can make componentDidMount a async function, but can't write async function 
 
 
 componentDidMount is called after 1st render. componentDidUpdate is called after every next render.
+
+
+Modularity: means we have broken our code into modular pieces.
+
+
+We should not bundle everything in one single file. Bundling should be logical.
+Suppose you are building makeMyTrip, you should bundle flights related components together, trains related components in another bundle, hotel related components in another bundle and so on.
+When homepage of makeMyTrip will load we should load only flights bundle. Only when user clicks on Trains, then we should load trains bundle.
+
+
+
+When you are trying to load a component on demand, React tries to suspend it.
+If you do lazy loading of a component, and go to that route which is supposed to show that component, 1st time error page will be shown in UI, next time onwards it will show correct UI.
+because lazy loading takes some time, but react renders immediately, hence 1st time it shows error. But its chunk will be loaded in network, so next time onwards it will show correct page, as it is still present in SPA.
