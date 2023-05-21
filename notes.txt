@@ -218,3 +218,38 @@ When homepage of makeMyTrip will load we should load only flights bundle. Only w
 When you are trying to load a component on demand, React tries to suspend it.
 If you do lazy loading of a component, and go to that route which is supposed to show that component, 1st time error page will be shown in UI, next time onwards it will show correct UI.
 because lazy loading takes some time, but react renders immediately, hence 1st time it shows error. But its chunk will be loaded in network, so next time onwards it will show correct page, as it is still present in SPA.
+
+
+
+The different ways of writing CSS in React:
+
+- Normal Native css
+- SCSS
+- inline css
+- Component library - Material UI, Base UI, Ant, Chakra
+- Styled Component
+- Tailwind CSS framework
+
+
+
+Tailwind CSS benefits:
+- CSS on the go(in the same file)
+- reusability
+- less bundle size
+- Flexible UI(Customizations possible easily)
+- easy to debug (no need to inspect, get the class name, find that class name in css file and the modify it, also no tension of modifying the css in that class name will affect other places where the same class is used)
+- No duplicate CSS(in normal css, when multiple developers work in same project, they write classes as per their own choice for the same piece of css, .green-button and .green-btn , without knowing that already a class is written for that css.)
+
+
+
+To use Tailwind CSS we need to install something known as postcss. postcss is a tool for transforming CSS with Javascript.
+By default browser does not understand the meaning of the classes of Tailwind CSS. We need to tell Parcel that we are using Tailwind and that needs another compilation to make the classes browser readable.
+
+we need to create a .postcssrc file. Here we need to configure to tell our bundler(parcel here) that while you are bundling things, we'll be using Tailwind, so complie our Tailwind into normal CSS.
+
+
+If we want to write our own specific css in Tailwind then use []. Ex: w-[200px] for width: 200px
+
+Cons of Tailwind:
+- looks little ugly with so many class names. Bad readablity
+- Steep learning curve. A new developer needs time to be familiar with it.

@@ -38,11 +38,11 @@ const Body = () => {
   return (
     <>
       {/* <Shimmer /> */}
-      <div className="search-container">
+      <div className="w-96 m-auto pt-4">
         <input
           type="text"
           placeholder="Search"
-          className="search-input"
+          className="w-full border border-gray-500 p-3"
           value={searchText}
           onChange={(e) => {
             setSearchText(e.target.value);
@@ -53,7 +53,7 @@ const Body = () => {
           Search
         </button> */}
       </div>
-      <div className="restaurant-list">
+      <div className="flex flex-wrap justify-around p-4">
         {restaurantList.length > 0 && filteredRestaurantList.length === 0 && (
           <h1>No restaurant found!</h1>
         )}
